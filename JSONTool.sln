@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONConsole", "JSONGUI\JSONConsole.csproj", "{659EB9FE-56DA-40CE-A699-AD960438EC41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONTool", "JSONTool\JSONTool.csproj", "{945A9048-F8AF-460C-84F9-04D624E3D130}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONWPF", "JSONWPF\JSONWPF.csproj", "{1B6DEAE9-D314-4A1B-8CA0-77A6E13FFA29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{659EB9FE-56DA-40CE-A699-AD960438EC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{659EB9FE-56DA-40CE-A699-AD960438EC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{659EB9FE-56DA-40CE-A699-AD960438EC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{659EB9FE-56DA-40CE-A699-AD960438EC41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{945A9048-F8AF-460C-84F9-04D624E3D130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{945A9048-F8AF-460C-84F9-04D624E3D130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{945A9048-F8AF-460C-84F9-04D624E3D130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{945A9048-F8AF-460C-84F9-04D624E3D130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B6DEAE9-D314-4A1B-8CA0-77A6E13FFA29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6DEAE9-D314-4A1B-8CA0-77A6E13FFA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6DEAE9-D314-4A1B-8CA0-77A6E13FFA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6DEAE9-D314-4A1B-8CA0-77A6E13FFA29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
