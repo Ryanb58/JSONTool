@@ -4,8 +4,8 @@ namespace JSONTool
     {
         public string minify(string json)
         {
-            //Return the json string.
-            return System.Text.RegularExpressions.Regex.Replace(json, "(\"(?:[^\"\\\\]|\\\\.)*\")|\\s+", "$1");
+            //Return the json string. (added simpler reg exp)
+            return System.Text.RegularExpressions.Regex.Replace(json, "(\"(?:[^\"|.])*\")|\\s+", "$1");
         }
     }
 }
